@@ -8,6 +8,7 @@ import { ListproduitsComponent } from './application/listproduits/listproduits.c
 import { ContactComponent } from './application/contact/contact.component';
 import { Ereur404Component } from './application/ereur404/ereur404.component';
 import { MenuComponent } from './application/menu/menu.component';
+import { SelectedProduitComponent } from './application/selected-produit/selected-produit.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MenuComponent } from './application/menu/menu.component';
     ListproduitsComponent,
     ContactComponent,
     Ereur404Component,
-    MenuComponent
+    MenuComponent,
+    SelectedProduitComponent
   ],
   imports: [
     BrowserModule,
